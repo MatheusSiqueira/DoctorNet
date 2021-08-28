@@ -1,0 +1,4 @@
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Domain.dll
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.csprojAssemblyReference.cache
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.AssemblyInfoInputs.cache
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.AssemblyInfo.cs
