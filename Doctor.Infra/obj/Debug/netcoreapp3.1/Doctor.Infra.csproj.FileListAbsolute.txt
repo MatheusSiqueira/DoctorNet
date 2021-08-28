@@ -2,3 +2,14 @@ C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Domain.dl
 C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.csprojAssemblyReference.cache
 C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.AssemblyInfoInputs.cache
 C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.AssemblyInfo.cs
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Infra.deps.json
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Infra.runtimeconfig.json
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Infra.runtimeconfig.dev.json
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Infra.dll
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Infra.pdb
+C:\Projetos Core\DoctorNet\Doctor.Infra\bin\Debug\netcoreapp3.1\Doctor.Domain.pdb
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.csproj.CopyComplete
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.dll
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.pdb
+C:\Projetos Core\DoctorNet\Doctor.Infra\obj\Debug\netcoreapp3.1\Doctor.Infra.genruntimeconfig.cache

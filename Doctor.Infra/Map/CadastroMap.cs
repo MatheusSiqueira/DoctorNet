@@ -15,7 +15,7 @@ namespace Doctor.Infra.Map
             builder.Property(x => x.DataNascimento).HasColumnName("data_nascimento").IsRequired();
             builder.Property(x => x.NumeroEndereco).HasColumnName("nu_endereco").IsRequired();
             builder.Property(x => x.EnderecoId).HasColumnName("endereco_id").IsRequired();
-            builder.HasOne<Endereco>().WithMany().HasForeignKey(p => p.EnderecoId);
+            builder.HasOne(x => x.Endereco).WithMany().HasForeignKey(x => x.EnderecoId);
         }
     }
 }

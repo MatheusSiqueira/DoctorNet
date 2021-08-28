@@ -7,7 +7,7 @@ namespace Doctor.Infra.Map
     {
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Endereco> builder)
         {
-            builder.ToTable("Enderecp");
+            builder.ToTable("Endereco");
             builder.HasKey(p => p.EnderecoId);
             builder.Property(p => p.EnderecoId).HasColumnName("endereco_id").ValueGeneratedOnAdd();
             builder.Property(x => x.Nome).HasColumnName("nome").IsRequired();

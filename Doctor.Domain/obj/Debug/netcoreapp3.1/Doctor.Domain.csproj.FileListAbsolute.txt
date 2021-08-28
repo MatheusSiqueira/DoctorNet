@@ -1,0 +1,9 @@
+C:\Projetos Core\DoctorNet\Doctor.Domain\bin\Debug\netcoreapp3.1\Doctor.Domain.deps.json
+C:\Projetos Core\DoctorNet\Doctor.Domain\bin\Debug\netcoreapp3.1\Doctor.Domain.dll
+C:\Projetos Core\DoctorNet\Doctor.Domain\bin\Debug\netcoreapp3.1\Doctor.Domain.pdb
+C:\Projetos Core\DoctorNet\Doctor.Domain\obj\Debug\netcoreapp3.1\Doctor.Domain.csprojAssemblyReference.cache
+C:\Projetos Core\DoctorNet\Doctor.Domain\obj\Debug\netcoreapp3.1\Doctor.Domain.AssemblyInfoInputs.cache
+C:\Projetos Core\DoctorNet\Doctor.Domain\obj\Debug\netcoreapp3.1\Doctor.Domain.AssemblyInfo.cs
+C:\Projetos Core\DoctorNet\Doctor.Domain\obj\Debug\netcoreapp3.1\Doctor.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos Core\DoctorNet\Doctor.Domain\obj\Debug\netcoreapp3.1\Doctor.Domain.dll
+C:\Projetos Core\DoctorNet\Doctor.Domain\obj\Debug\netcoreapp3.1\Doctor.Domain.pdb
