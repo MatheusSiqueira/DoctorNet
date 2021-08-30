@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Doctor.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Doctor.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctor.Domain.dll": {}
+        }
+      },
+      "Doctor.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Doctor.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Doctor.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctor.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Doctor.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Doctor.Domain/Doctor.Domain.csproj",
+      "msbuildProject": "../Doctor.Domain/Doctor.Domain.csproj"
+    },
+    "Doctor.Dto/1.0.0": {
+      "type": "project",
+      "path": "../Doctor.Dto/Doctor.Dto.csproj",
+      "msbuildProject": "../Doctor.Dto/Doctor.Dto.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Doctor.Dto >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sique\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos Core\\DoctorNet\\Doctor.Service\\Doctor.Service.csproj",
+      "projectName": "Doctor.Service",
+      "projectPath": "C:\\Projetos Core\\DoctorNet\\Doctor.Service\\Doctor.Service.csproj",
+      "packagesPath": "C:\\Users\\sique\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos Core\\DoctorNet\\Doctor.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Projetos Core\\DoctorNet\\Doctor.Dto\\Doctor.Dto.csproj": {
+              "projectPath": "C:\\Projetos Core\\DoctorNet\\Doctor.Dto\\Doctor.Dto.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1831,6 +1831,19 @@
           "bin/placeholder/Doctor.Domain.dll": {}
         }
       },
+      "Doctor.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Doctor.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Doctor.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctor.Dto.dll": {}
+        }
+      },
       "Doctor.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1844,6 +1857,19 @@
         },
         "runtime": {
           "bin/placeholder/Doctor.Infra.dll": {}
+        }
+      },
+      "Doctor.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Doctor.Dto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Doctor.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctor.Service.dll": {}
         }
       }
     }
@@ -6382,15 +6408,27 @@
       "path": "../Doctor.Domain/Doctor.Domain.csproj",
       "msbuildProject": "../Doctor.Domain/Doctor.Domain.csproj"
     },
+    "Doctor.Dto/1.0.0": {
+      "type": "project",
+      "path": "../Doctor.Dto/Doctor.Dto.csproj",
+      "msbuildProject": "../Doctor.Dto/Doctor.Dto.csproj"
+    },
     "Doctor.Infra/1.0.0": {
       "type": "project",
       "path": "../Doctor.Infra/Doctor.Infra.csproj",
       "msbuildProject": "../Doctor.Infra/Doctor.Infra.csproj"
+    },
+    "Doctor.Service/1.0.0": {
+      "type": "project",
+      "path": "../Doctor.Service/Doctor.Service.csproj",
+      "msbuildProject": "../Doctor.Service/Doctor.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Doctor.Dto >= 1.0.0",
       "Doctor.Infra >= 1.0.0",
+      "Doctor.Service >= 1.0.0",
       "Microsoft.Data.SqlClient >= 2.1.3",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.6",
@@ -6431,8 +6469,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Projetos Core\\DoctorNet\\Doctor.Dto\\Doctor.Dto.csproj": {
+              "projectPath": "C:\\Projetos Core\\DoctorNet\\Doctor.Dto\\Doctor.Dto.csproj"
+            },
             "C:\\Projetos Core\\DoctorNet\\Doctor.Infra\\Doctor.Infra.csproj": {
               "projectPath": "C:\\Projetos Core\\DoctorNet\\Doctor.Infra\\Doctor.Infra.csproj"
+            },
+            "C:\\Projetos Core\\DoctorNet\\Doctor.Service\\Doctor.Service.csproj": {
+              "projectPath": "C:\\Projetos Core\\DoctorNet\\Doctor.Service\\Doctor.Service.csproj"
             }
           }
         }
